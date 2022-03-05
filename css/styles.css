@@ -2,10 +2,18 @@ body {
     background-color: #F7F7F7;
 }
 
+/* other hr colors to choose from #008E89  */
 hr {
-    background-color: #008E89;
+    background-color:#DFAD93;
     border-style: none;
     height: 2px;
     width: auto;
+}
+
+h1 {
+    color: #184b45;
+    font-family:Segoe UI, Tahoma, Geneva, Verdana, 'sans-serif' ;
 
 }
+
+
