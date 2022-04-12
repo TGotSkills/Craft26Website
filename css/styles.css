@@ -35,6 +35,7 @@ h4 {
    font-family:initial;
 }
 
+
 /******************CLASS SELECTORS******************/
 
 .craft26-logo {
@@ -46,10 +47,10 @@ h4 {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-family: sans-serif;
+    font-family: 'Cormorant Garamond', serif; /* other fonts 'Adamina'*/
+    font-size: 25px;
     color: #000000;
     padding: 14px 20px;
-    font-size: 20px;
 } 
 
 /** hover */
@@ -70,6 +71,10 @@ h4 {
     display: inline-block;
     border-spacing: 10px;
 
+}
+
+.contact-container {
+    font-size: 20px;
 }
 
 /* master div social links, logo and email */
@@ -115,4 +120,8 @@ h4 {
     display: block;
  /* border:solid 2px; */
 
+}
+
+.contact-title {
+    font-size: 25px;
 }
