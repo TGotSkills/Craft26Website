@@ -6,7 +6,7 @@
     <title>Welcome To Craft 26</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Lateef&family=Montserrat&family=Playfair+Display&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Lateef&family=Merriweather&family=Montserrat&family=Playfair+Display&family=Sacramento&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico">
 
@@ -14,60 +14,121 @@
 <body>
         <!-- Navigation this is shown on all pages on the website-->
     <div class="site-navigation">
-        <center> 
-            <a href="index.html" class="craft26-button">Home</a>
-            <a href="blog.html" class="craft26-button">Blog</a>
-            <a href="about-me.html"class="craft26-button">About</a>
-            <a href="lifestyle.html" class="craft26-button">LifeStyle</a>
-            <a href="contact.html" class="craft26-button">Contact</a>
-        </center>
+            <a href="index.html" class="craft26-navigation">Home</a>
+            <a href="blog.html" class="craft26-navigation">Blog</a>
+            <a href="about-me.html"class="craft26-navigation">About</a>
+            <a href="lifestyle.html" class="craft26-navigation">LifeStyle</a>
+            <a href="contact.html" class="craft26-navigation">Contact</a>
     </div>
+
     <hr>
-    <!--sle stands for social-logo-email-group div his is shown on all pages on the website-->
-    <div class="sle-group">
-    <div class="social-media-left">
-        <h4>FOLLOW ME</h4>
-            <a class="social-links" href="https://www.instagram.com/craft_twentysix/"> <img src="images\Instagram-logo.png" alt=""> </a>
-            <a class="social-links" href="https://www.facebook.com/CraftTwentySix"> <img src="images\facebook-logo30.png" alt=""></a>
-            <a class="social-links" href="https://www.youtube.com/channel/UCGy5TPi8oX01jhFzM-ld7Hg"> <img src="images\youtube-logo.png" alt=""> </a>
+    
+    <!--sle stands for logo-welcome-social-links-group div his is shown on all pages on the website-->
+    <div class="lws-group">
+
+        
+        <div class="top-logo" >
+            <center> 
+                <img src="images\Craft26logo-removebg250.png" class="craft26-logo" alt="craft26-logo">
+            </center> 
+        </div>
+
+        <div class="welcome-title">
+            <h1 class=welcome-t>Welcome</h1>
+        </div>
+
+         <div class="social-media-right">
+            <h4 class="connect-titile">Let's Connect</h4>
+                    <a class="social-links" href="https://www.instagram.com/craft_twentysix/"> <img src="images\Instagram-logo1.png" alt=""></a>
+                    <a class="social-links" href="https://www.facebook.com/CraftTwentySix"> <img src="images\facebook-logo30.png" alt=""></a>
+                    <a class="social-links" href="https://www.youtube.com/channel/UCGy5TPi8oX01jhFzM-ld7Hg"> <img src="images\youtube-logo.png" alt=""> </a>
+            </div>
+
+    </div>
+    
+    <br>
+
+    <div class="middle-container">
+
+
+            <!--Slideshow Container-->
+            <div class="slideshow-container"> 
+
+                <!--Full-width images with number and caption text-->
+                <div class="mySlides-fades">
+                    <div class="numbertext">1 /4</div>
+                    <img src="" alt="">
+                    <div class="text">Puffer Bandana Tote Bag</div>
+                </div>
+
+                <div class="mySlides-fades">
+                    <div class="numbertext">2 /4</div>
+                    <img src="" alt="">
+                    <div class="text">Wooden Keychain</div>
+                </div>
+
+                <div class="mySlides-fades">
+                    <div class="numbertext">3 /4</div>
+                    <img src="" alt="">
+                    <div class="text">Notebook Tote Bag</div>
+                </div>
+
+
+                <div class="mySlides-fades">
+                    <div class="numbertext">4 /4</div>
+                    <img src="" alt="">
+                    <div class="text">Pending</div>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        
+            
+            <h2 class="c26-bio"> <strong>Behind Craft 26</strong> </h2> 
+            <p class="c26-bio2">We spread nothing but good vibes with easy craft tutorials to follow along and try some of our fun projects. </p>
+                
+
+
     </div>
 
-    <div class="top-logo" >
-        <center> 
-            <img src="images\Craft26logo-removebg250.png" class="craft26-logo" alt="craft26-logo">
-          </center> 
-    </div>
-
-    <div class="email-list">
+      <!-- <div class="email-list">
         <h4>Join Email List today</h4>
          <label for="email">Enter your email:</label>
          <input type="email" id="email"  pattern=".+@globex\.com" size="30" required>
          <input type="submit" value="Send Request">
     </div>
-</div>
+    -->
 
-
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-
-    <center>
-        <h2> <strong>Get to Know Craft 26</strong> </h2> <p>We believe that everyone has the ability to be creative, as long as they let themselves be. At Craft 26, we’re <br> committed to delivering 
-            the best experience for our customers - the best prices, the best service and the best selection. <br> We strive to give our customers all of the options to let their creativity run wild.
-            Start shopping our site <br> today.</p>
-    </center>
 
 </body>
 
+
+
+
 <footer>
-    <center>
-        <h4 class="contact-title"><strong>Contact Us</strong></h4>
-            <div class="contact-container">
-                <a class="footer-link" href="https://www.instagram.com/craft_twentysix/">Instagram</a>
-                <a class="footer-link" href="https://www.facebook.com/CraftTwentySix">Facebook</a>
-                <a class="footer-link" href="https://www.youtube.com/channel/UCGy5TPi8oX01jhFzM-ld7Hg">YouTube</a>
-                <p>© Craft TwentySix</p>
-            </div>
-    </center>
+
+
+        <div class="contact-container">
+                <div class="contact-me">
+                    <h2 class="git-title">Get In Touch</h2>
+                    <p class="contact-message">Like something you see and want it customized</p>
+                    <a class="btn" href="mailto:craft.twentysix@gmail.com">CONTACT ME</a>
+                </div>
+            <a class="footer-link" href="https://www.instagram.com/craft_twentysix/">Instagram</a>
+            <a class="footer-link" href="https://www.facebook.com/CraftTwentySix">Facebook</a>
+            <a class="footer-link" href="https://www.youtube.com/channel/UCGy5TPi8oX01jhFzM-ld7Hg">YouTube</a>
+            <p class="copyright">© 2021 Craft TwentySix</p>
+        </div>
+
 </footer>
 </html>
